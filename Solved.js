@@ -77,4 +77,19 @@ function boolToWord( bool ){
 }
 
 
+// remove spaces from string -- my solution 
+function noSpace(x){
+  //remove  outer spaces
+  x = x.trim()
+  // then remove inner spaces
+  let removeSpaces = x.split(" ").join("")
+  // return string without space
+  return removeSpaces
+}
 
+// two examples of best practice
+ function noSpace(x){
+  return x.replace(/\s/g, '');
+}
+
+function noSpace(x){return x.split(' ').join('')}
