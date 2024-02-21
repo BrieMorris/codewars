@@ -36,5 +36,28 @@ function solution(str){
 // another way
 
 
+// Return negative - my solution 
+function makeNegative(num) {
+  // If num is positive, make it negative
+  if (Math.sign(num) === 1) {
+    return -Math.abs(num);
+  }
+  
+  // If num is negative, return it as it is
+  else if (Math.sign(num) === -1) {
+    return num;
+  }
+  
+  // If num is zero, return 0
+  else {
+    return 0;
+  }
+}
+
+//shorter and best practice solution
+function makeNegative(num) {
+  return -Math.abs(num);
+}
+
 
 
