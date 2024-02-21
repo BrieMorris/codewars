@@ -59,5 +59,22 @@ function makeNegative(num) {
   return -Math.abs(num);
 }
 
+// convert boolean values to yes and no - my solution
+function boolToWord( bool ){
+  //is boolean true return "yes"
+  if (bool === true) {
+    return 'Yes'
+  }
+  //is boolean false retun 'no'
+  else if (bool === false) {
+    return 'No'
+    }
+}
+
+//best practice solution 
+function boolToWord( bool ){
+  return bool ? 'Yes':'No';
+}
+
 
 
