@@ -1,3 +1,14 @@
+//7 ky
+
+//remove vowels from a string
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi, '');
+}
+
+//
+
+
+
 //8 ky
 
 //sum of positive
