@@ -93,3 +93,17 @@ function noSpace(x){
 }
 
 function noSpace(x){return x.split(' ').join('')}
+
+// even or odd - my solution
+function evenOrOdd(number) {
+  if (number % 2 === 0) {
+    return 'Even';
+  } else {
+    return 'Odd';
+  }
+};
+
+//another option
+function evenOrOdd(number) {
+  return number % 2 === 0 ? 'Even' : 'Odd';
+}
