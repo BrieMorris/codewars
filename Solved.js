@@ -169,3 +169,17 @@ var summation = function (num) {
 }
   return result;
 }
+
+//remove first / last charcter from string - my answer
+function removeChar(str){
+ //remove the first/last character of string
+ let remove = str.slice(1, -1)
+  // return new string
+  return remove
+
+};
+
+//best practice
+function removeChar(str) {
+  return str.slice(1, -1);
+}
