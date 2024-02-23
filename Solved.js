@@ -123,4 +123,12 @@ function multiply(a, b){
   return a * b
 }
 
-//
+//turn num into string - my answer
+function numberToString(num) {
+  // Return a string of the number here!
+  let makeString = num.toString()
+  
+  return makeString
+}
+
+//best practice answer - i keep adding an extra step to min 
