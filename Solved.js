@@ -1,3 +1,5 @@
+//8 ky
+
 //sum of positive
 function positiveSum(arr) {
   let positiveNumArr = []
@@ -54,6 +56,7 @@ function makeNegative(num) {
   }
 }
 
+
 //shorter and best practice solution
 function makeNegative(num) {
   return -Math.abs(num);
@@ -107,3 +110,17 @@ function evenOrOdd(number) {
 function evenOrOdd(number) {
   return number % 2 === 0 ? 'Even' : 'Odd';
 }
+
+
+//fix function multiply
+//before 
+function multiply(a, b){
+  a * b
+}
+
+//my answer 
+function multiply(a, b){
+  return a * b
+}
+
+//
