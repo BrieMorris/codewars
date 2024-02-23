@@ -153,6 +153,19 @@ var summation = function (num) {
   for (var i = 1; i <= num; i++) {
     result += i;
   }
+
+
+  // find the addative inverse
+  function opposite(number) {
+ // find its oppisite by times it by -1
+  let num = number * -1
   
+  return num 
+}
+
+//best practice 
+  function opposite(number) {
+  return(-number);
+}
   return result;
 }
