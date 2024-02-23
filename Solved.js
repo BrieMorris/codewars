@@ -132,3 +132,27 @@ function numberToString(num) {
 }
 
 //best practice answer - i keep adding an extra step to min 
+function numberToString(num) {
+  return num.toString();
+}
+
+// grasshopper summation 
+var summation = function (num) {
+  // Code here
+  let sum = 0
+  for (i= num; i >= 1; i--) {
+    sum += i
+  }
+  return sum   
+  
+}
+
+// best practice 
+var summation = function (num) {
+  let result = 0;
+  for (var i = 1; i <= num; i++) {
+    result += i;
+  }
+  
+  return result;
+}
