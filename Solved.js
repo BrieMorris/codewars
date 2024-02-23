@@ -179,6 +179,13 @@ function removeChar(str){
 
 };
 
+//repeat string as many times as the num - my answer & best practice 
+function repeatStr (n, s) {
+  //repeat s, n times
+  
+  return s.repeat(n);
+}
+
 //best practice
 function removeChar(str) {
   return str.slice(1, -1);
