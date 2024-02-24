@@ -7,6 +7,24 @@ function disemvowel(str) {
 
 //
 
+//square numbers 
+function squareDigits(num){
+ //split up the number into digits then use map to write a function to square each digit
+  return Number(('' + num).split('').map(function(val) {
+    //then join the numbers back together
+    return val * val;}).join(''));
+}
+
+//another option
+function squareDigits(num){
+    var string = num.toString();
+    var results = [];
+    for (var i = 0; i < string.length; i++){
+        results[i] = string[i] * string[i];
+    }
+    return Number(results.join(''));
+};
+
 
 
 //8 ky
