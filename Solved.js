@@ -29,6 +29,17 @@ function squareDigits(num){
 
 //8 ky
 
+//trun a str into a num - my solution
+var stringToNumber = function(str){
+  // use Number() function
+  return Number(str);
+}
+
+// another option 
+var stringToNumber = function(str){
+  return parseInt(str);
+}
+
 //Basic Math operations - solution
 function basicOp(operation, value1, value2){
   switch(operation){
