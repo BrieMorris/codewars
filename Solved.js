@@ -29,6 +29,17 @@ function squareDigits(num){
 
 //8 ky
 
+//find century - my solution
+function century(year) {
+  // divide year by 100 & round up to nearest interger
+  let findCentury = Math.ceil(year / 100)
+  //retun answer
+  return findCentury;
+}
+
+//best practice
+const century = year => Math.ceil(year/100)
+
 //trun a str into a num - my solution
 var stringToNumber = function(str){
   // use Number() function
